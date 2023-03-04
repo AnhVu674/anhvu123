@@ -1,0 +1,264 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    
+}
+h1:hover{
+    color: red;
+}
+h2{
+    font-size: 50px;
+    color: blueviolet;
+    margin-top: 80px;
+}
+h3{
+    color: blueviolet;
+    font-size: 60px;
+}
+h4{
+    color: violet;
+    font-size: 50px;
+}
+h5{
+    color: white;
+}
+h6{
+    color: red;
+    font-size: 1rem;
+    margin-top: 5px;
+    padding-top: 0px;
+    border: 0px;
+}
+
+/* Khung head */
+
+.khung {
+    color: oldlace;
+    background-image: linear-gradient(0, rgba(121, 240, 10, 0.5), rgba(245, 43, 235, 0.507));
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    min-height: 42px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+
+}
+
+.khung-link {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.khung-link:hover {
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.khung-anh-anh{
+    display: flex;
+}
+.khung-anh-anh-anh{
+    width: 50%;
+}
+
+.khung-anh-kirito{
+    width: 50%;
+}
+
+.khung-anh-nen{
+    width: 100%;
+}
+
+/* Đăng ký/đăng nhập */
+.form {
+    color: red;
+    background-color: white;
+    margin: 30px auto 0px auto;
+    /* text-align: center; */
+    max-width: 650px;
+    height: auto;
+    overflow: unset;
+    padding: 20px 0px 20px 20px;
+    border-radius: 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-input{
+    width: 70%;
+    height: 30px;
+
+}
+.form-input__name{
+    margin-left: 23px;
+    width: 70%;
+    height: 30px;
+}
+
+.form-label {
+    min-width: 90px;
+    flex: 1;
+}
+
+.form-label__2{
+    margin-top: 20px;
+}
+
+.form-label__1{
+    margin-top: 2px;
+}
+
+.form-l {
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.form-l-nut{
+    cursor: pointer;
+    width: 85px;
+}
+
+.trolai{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+/* thẻ card */
+.cards {
+    display: inline-flex;
+    transition: transform ease-in 0.1s;
+    will-change: transform;
+}
+
+.cards:hover{
+    box-shadow: 0px 1px 20px 0 rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+
+}
+
+
+
+.card {
+    background-color: white;
+    margin: 10px 0px auto 0px;
+    width: 338px;
+    padding: 0px;
+    border: 0px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    justify-content:space-between;
+    
+    
+    
+}
+
+.cards-link{
+    display: block;
+    text-decoration: none;
+    color: green;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 0px;
+}
+
+.card-link{
+    text-decoration: none;
+    color: blue;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 0px;
+}
+
+
+.card-link:hover{
+    text-decoration: underline;
+    
+}
+
+.card-nut {
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+
+}
+
+.card-nut:hover{
+    text-decoration: underline;
+}
+.card-title{
+    color: red;
+    font-weight: 1.2rem;
+}
+.card-chu{
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 0px;
+    
+}
+
+.card-cc{
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 0px;
+}
+
+/* head-end */
+.end{
+    background-color: rgb(107, 110, 106);
+    width: 100%;
+    height: auto;
+}
+
+.end-khung{
+    margin-top: 10px;
+}
+
+.end-title{
+    text-align: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+
+
+.end-img{
+    font-size: 100px;
+    justify-content: space-between;
+    color: rgb(48, 48, 49);
+}
+
+.end-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-img-ahii{
+    width: 374px;
+    height: 230px;
+}
+
+@keyframes growth{
+    from { transform: scale(0);
+        opacity: 0;
+
+    }
+    to{ transform: scale(1);
+        opacity: 1;
+
+    }
+}
+
+.bestflo{
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+/* https://shọpmobaviet.vn/storage/images/CEeYPlWDq1_1643182411.gif */
